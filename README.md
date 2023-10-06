@@ -17,7 +17,7 @@ In this paper, we follow [DATASETS.md](DATASETS.md) to install the datasets. The
 
 Click a paper below to see the detailed instructions on how to run the code to reproduce the results.
 
-* [Variational Prompt Tuning Improves Generalization of Vision-Language Models](VPT.md)
+* [Bayesian Prompt Learning for Image-Language Model Generalization](VPT.md)
 
 ## Results
 
@@ -27,7 +27,7 @@ The raw numerical results can be found at this [google drive link](https://docs.
 If you use this code in your research, please kindly cite the following papers
 
 ```
-@article{derakhshani2022variational,
+@article{derakhshani2023variational,
   title={Bayesian Prompt Learning for Image-Language Model Generalization},
   author={Derakhshani, Mohammad Mahdi and Sanchez, Enrique and Bulat, Adrian and da Costa, Victor Guilherme Turrisi and Snoek, Cees GM and Tzimiropoulos, Georgios and Martinez, Brais},
   journal={ICCV},
