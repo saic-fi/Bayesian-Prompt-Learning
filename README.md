@@ -1,9 +1,8 @@
 
-# Variational Prompt Tuning Improves Generalization of Vision-Language Models
-
+# Bayesian Prompt Learning for Image-Language Model Generalization
 ![Variational Prompt Learning](assets/vpt.png "VPT")
 
-This repo contains the codebase of the paper  [Variational Prompt Tuning Improves Generalization of Vision-Language Models](https://arxiv.org/abs/2210.02390). 
+This repo contains the codebase of the ICCV'23 paper [Bayesian Prompt Learning for Image-Language Model Generalization](https://arxiv.org/abs/2210.02390). 
 
 ## How to Install
 This code is built on top of the awesome toolbox [Dassl.pytorch](https://github.com/KaiyangZhou/Dassl.pytorch) so you need to install the `dassl` environment first. Simply follow the instructions described [here](https://github.com/KaiyangZhou/Dassl.pytorch#installation) to install `dassl` as well as PyTorch. After that, run `pip install -r requirements.txt` under `VPT/` to install a few more packages required by [CLIP](https://github.com/openai/CLIP) (this should be done when `dassl` is activated). Then, you are ready to go.
@@ -29,9 +28,9 @@ If you use this code in your research, please kindly cite the following papers
 
 ```
 @article{derakhshani2022variational,
-  title={Variational prompt tuning improves generalization of vision-language models},
+  title={Bayesian Prompt Learning for Image-Language Model Generalization},
   author={Derakhshani, Mohammad Mahdi and Sanchez, Enrique and Bulat, Adrian and da Costa, Victor Guilherme Turrisi and Snoek, Cees GM and Tzimiropoulos, Georgios and Martinez, Brais},
-  journal={arXiv preprint arXiv:2210.02390},
-  year={2022}
+  journal={ICCV},
+  year={2023}
 }
 ```
